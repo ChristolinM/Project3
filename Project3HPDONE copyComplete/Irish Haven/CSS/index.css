@@ -1,0 +1,927 @@
+@media only screen and (min-width: 1470px) and (max-width: 2000px){ /* -------------------------------First QUERY----------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*MY CODE STARTS*/
+*{
+	box-sizing: border-box;
+}
+
+#contents{
+	max-width: 1500px;
+	margin: 0 auto;
+	background-color: black;
+	
+	
+}
+
+h1, p, h2{
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+body{
+	background: linear-gradient(90deg,green,darkorange);
+}
+
+#IHlogo {
+	width: 20%;
+	height: auto;
+}
+
+#IHBanner{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.display{
+	width: 100%;
+	max-width: 700px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.words{
+	margin-top: 10%;
+}
+
+.L{
+  position: relative;
+  left: 159px;
+}
+
+.R{
+  position: relative;
+  right: 159px;
+}
+.words p{
+	font-size: 20px
+}
+
+/*div {
+	border: 1px solid black;
+}
+*/
+footer{
+	background-color: slategrey;
+}
+
+audio{
+	height: 10px;
+	width: 10px;
+	margin: 0 auto;
+}
+
+}/*mediaQ*/
+
+@media only screen and (min-width: 1215px) and (max-width: 1470px){ /* -------------------------------Second QUERY----------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*MY CODE STARTS*/
+*{
+  box-sizing: border-box;
+}
+
+#contents{
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: black;
+  
+  
+}
+
+h1, p, h2{
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+body{
+  background: linear-gradient(90deg,green,darkorange);
+}
+
+#IHlogo {
+  width: 20%;
+  height: auto;
+}
+
+#IHBanner{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.display{
+  width: 100%;
+  max-width: 700px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.words{
+  margin-top: 10%;
+}
+
+.L{ /*words*/
+  position: relative;
+  left: 70px;
+}
+
+.R{ /*words*/
+  position: relative;
+  right: 100px;
+}
+.words p{
+  font-size: 16px
+}
+.words h1{
+  font-size: 20px;
+}
+
+/*div {
+  border: 1px solid black;
+}
+*/
+footer{
+  background-color: slategrey;
+}
+
+audio{
+  height: 10px;
+  width: 10px;
+  margin: 0 auto;
+}
+
+}/*mediaQ*/
+
+@media only screen and (min-width: 1144px) and (max-width: 1215px){ /* -------------------------------Third QUERY----------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*MY CODE STARTS*/
+*{
+  box-sizing: border-box;
+}
+
+#contents{
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: black;
+  
+  
+}
+
+h1, p, h2{
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+body{
+  background: linear-gradient(90deg,green,darkorange);
+}
+
+#IHlogo {
+  width: 20%;
+  height: auto;
+}
+
+#IHBanner{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.display{
+  width: 100%;
+  max-width: 700px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.words{
+  margin-top: 10%;
+}
+
+.L{ /*words*/
+  position: relative;
+  left: 50px;
+}
+
+.R{ /*words*/
+  position: relative;
+  right: 50px;
+}
+
+.words p{
+  font-size: 14px
+}
+.words h1{
+  font-size: 20px;
+}
+
+/*div {
+  border: 1px solid black;
+}
+*/
+footer{
+  background-color: slategrey;
+}
+
+audio{
+  height: 10px;
+  width: 10px;
+  margin: 0 auto;
+}
+
+}/*mediaQ*/
+
+@media only screen and (min-width: 450px) and (max-width: 1215px){ /* -------------------------------Fourth QUERY----------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*MY CODE STARTS*/
+*{
+  box-sizing: border-box;
+}
+
+#contents{
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: black;
+  
+  
+}
+
+h1, p, h2{
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  display: block;
+
+
+}
+
+body{
+  background: linear-gradient(90deg,green,darkorange);
+}
+
+#IHlogo {
+  width: 20%;
+  height: auto;
+}
+
+#IHBanner{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.display{
+  width: 100%;
+  max-width: 700px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.words{
+  margin-top: 10%;
+}
+
+.L{ /*words*/
+
+}
+
+.R{ /*words*/
+
+}
+.words p{
+  font-size: 14px
+}
+.words h1{
+  font-size: 20px;
+}
+
+/*div {
+  border: 1px solid black;
+}
+*/
+footer{
+  background-color: slategrey;
+}
+
+audio{
+  height: 10px;
+  width: 10px;
+  margin: 0 auto;
+}
+
+}/*mediaQ*/
+@media only screen and (max-width: 450px) and (min-width: 16px){ /* -------------------------------First QUERY----------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*MY CODE STARTS*/
+*{
+	box-sizing: border-box;
+}
+
+#contents{
+	max-width: 1500px;
+	margin: 0 auto;
+	
+}
+
+h1, p, h2{
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+body{
+	background: linear-gradient(90deg,green,darkorange);
+}
+
+#IHlogo {
+	width: 20%;
+	height: auto;
+}
+
+#IHBanner{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+.display{
+	width: 100%;
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.words{
+	
+	width: 100%;
+	max-width: 700px;
+	display: block;
+}
+
+.words p{
+	font-size: 1em;
+}
+
+/*div {
+	border: 1px solid black;
+}
+*/
+
+footer{
+	background-color: slategrey;
+}
+
+}/*mediaQ*/
+
+.staff{
+  width: auto;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,6 @@
+Pick Company
+Pick Layout(Full/Mobile)
+Design Full layout
+Design Mobile layout
+Design Bar title logo
+Create Material for site (images, slides)
